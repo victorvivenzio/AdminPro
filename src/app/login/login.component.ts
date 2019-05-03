@@ -13,7 +13,6 @@ export class LoginComponent implements OnInit {
     init_custom();
   }
   access() {
-    console.log( 'aca' );
     this.router.navigate(['/dashboard']);
   }
 }
