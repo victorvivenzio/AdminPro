@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { PagesModule } from './pages/pages.module';
 import { NgModule } from '@angular/core';
 import { ServicesModule } from './services/services.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Routes
 import { APP_ROUTES } from './app.routes';
@@ -23,6 +23,7 @@ import { RegisterComponent } from './login/register.component';
     PagesModule,
     ServicesModule,
     FormsModule,
+    ReactiveFormsModule,
     APP_ROUTES
   ],
   providers: [],
